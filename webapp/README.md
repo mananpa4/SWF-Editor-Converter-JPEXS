@@ -1,0 +1,44 @@
+# Video Compression using `FFmpeg`
+
+![Video Compression](./public/banner.jpeg)
+
+## Overview
+
+Compress Videos for Free. Forever. Say goodbye to bulky files! Crush video sizes by 90% with no quality loss, even offline. And the best part? It's free!
+
+## ⛰️ Preview
+
+<small>If preview is not loaded, please visit here [preview gif](./public/demo.gif).</small>
+
+![Video Compression Preview](./public/demo.gif)
+
+## 🤝 Contributing
+
+### Technologies Used
+
+- **Multimedia Framework:** [FFmpeg](https://ffmpeg.org/)
+- **Framework:** [Next.js](https://nextjs.org)
+- **Styling:** [Tailwind CSS](http://tailwindcss.com)
+
+### Running Locally
+
+Ensure that you have Bun installed.
+
+```bash
+git clone https://github.com/pranavp10/video-compress.git
+cd video-compress
+bun install
+bun run dev
+```
+
+Create `.env.local` file similar to `.env.example`.
+
+[Live Video Compression Link](https://videocompress.prolab.sh/)
+
+### License
+
+You are free to use this code as inspiration. Please do not copy it directly. Crediting the author is appreciated. Please remove all personal information (images, etc.)
+
+### Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=pranavp10/video-compress&type=Date)](https://star-history.com/#pranavp10/video-compress&Date)

@@ -1,2 +1,11 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Bundled ffmpeg binaries (tools/ffmpeg) - large binaries, stored via Git LFS
+tools/ffmpeg/**/*.exe filter=lfs diff=lfs merge=lfs -text
+tools/ffmpeg/**/*.dll filter=lfs diff=lfs merge=lfs -text
+tools/ffmpeg/**/*.so filter=lfs diff=lfs merge=lfs -text
+tools/ffmpeg/**/*.dylib filter=lfs diff=lfs merge=lfs -text
+
+# ffmpeg.wasm core bundled with the web app - large binary, stored via Git LFS
+webapp/public/download/*.wasm filter=lfs diff=lfs merge=lfs -text
